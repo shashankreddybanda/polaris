@@ -24,7 +24,7 @@ def backgroundTask(n):
     return len(n)
 
 
-@app.route("/")
+@app.route("/task")
 def addTask():
 
     if request.args.get("n"):
